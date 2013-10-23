@@ -1,0 +1,51 @@
+[user]
+  name = Fab Mackojc
+	email = fab.mackojc@gmail.com
+
+[core]
+  autocrlf = input
+  safecrlf = true
+  excludesfile = /Users/Fab/.gitignore_global
+
+[color]
+  ui = auto
+  branch = auto
+
+[color "diff"]
+  meta = cyan bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+
+[color "status"]
+  added = green
+  changed = red
+  untracked = cyan
+
+[credential]
+  helper = osxkeychain
+
+[alias]
+  df = diff
+	co = checkout
+  st = status
+  # "Long" Logs - renders the log with high signal and low noise
+  ll = log \
+  --graph \
+  --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%an - %cr)' \
+  --date=relative
+  ba = branch --all
+  sh = !git-sh
+  aliases = !git config --get-regexp 'alias.*' | colrm 1 6 | sed 's/[ ]/ = /'
+
+[push]
+  default = tracking
+
+[rebase]
+  autosquash = true
+
+[branch]
+  autosetupmerge = true
+
+[hub]
+	protocol = https
