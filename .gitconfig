@@ -1,6 +1,6 @@
 [user]
   name = Fab Mackojc
-	email = fab.mackojc@gmail.com
+  email = fab.mackojc@gmail.com
 
 [core]
   autocrlf = input
@@ -26,7 +26,7 @@
   helper = osxkeychain
 
 [alias]
-	co = checkout
+  co = checkout
   st = status
   # "Long" Logs - renders the log with high signal and low noise
   ll = log \
@@ -46,4 +46,4 @@
   autosquash = true
 
 [hub]
-	protocol = https
+  protocol = https
