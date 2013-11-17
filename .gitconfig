@@ -36,15 +36,14 @@
   ba = branch --all
   sh = !git-sh
   aliases = !git config --get-regexp 'alias.*' | colrm 1 6 | sed 's/[ ]/ = /'
+  today = !git log --graph --all --since=midnight --author=\"$(git config user.name)\" --oneline
+  yesterday = !git log --graph --all --since="day.before.yesterday.midnight" --until=midnight --author=\"$(git config user.name)\" --oneline
 
 [push]
-  default = tracking
+  default = upstream
 
 [rebase]
   autosquash = true
-
-[branch]
-  autosetupmerge = true
 
 [hub]
 	protocol = https
