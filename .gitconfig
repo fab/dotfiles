@@ -3,8 +3,8 @@
   email = fab.mackojc@gmail.com
 
 [core]
-  autocrlf = input
-  safecrlf = true
+  autocrlf = false
+  safecrlf = warn
   excludesfile = /Users/Fab/.gitignore_global
 
 [color]
