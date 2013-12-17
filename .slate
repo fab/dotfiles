@@ -9,6 +9,11 @@ bind left:ctrl;alt;cmd   push left  bar-resize:screenSizeX/2
 bind up:ctrl;alt;cmd     push up    bar-resize:screenSizeY/2
 bind down:ctrl;alt;cmd   push down  bar-resize:screenSizeY/2
 
+bind right:shift;alt;cmd  corner bottom-right resize:screenSizeX/2;screenSizeY/2
+bind left:shift;alt;cmd   corner top-left  resize:screenSizeX/2;screenSizeY/2
+bind up:shift;alt;cmd     corner top-right    resize:screenSizeX/2;screenSizeY/2
+bind down:shift;alt;cmd   corner bottom-left  resize:screenSizeX/2;screenSizeY/2
+
 # Nudge Bindings
 bind right:shift;ctrl nudge +10% +0
 bind left:shift;ctrl  nudge -10% +0
@@ -27,3 +32,7 @@ bind t:alt focus 'Terminal'
 
 # Relaunch Slate
 bind s:ctrl;alt;cmd relaunch
+
+# Snapshots
+bind p:alt snapshot Snapshot save-to-disk
+bind p:shift;alt activate-snapshot Snapshot
