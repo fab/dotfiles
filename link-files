@@ -1,0 +1,17 @@
+#!/bin/sh
+#
+# This shell script symlinks all the files in the
+# .dotfiles directory into your home directory.
+
+link() {
+  from="$1"
+  to="$2"
+  echo "Linking '$from' to '$to'"
+  rm -f "$to"
+  ln -s "$from" "$to"
+}
+
+for file in `ls -d .*`
+do
+  [ -f "$file" ] && link "`pwd`/$file" "$HOME/$file"
+done
