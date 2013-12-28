@@ -43,3 +43,6 @@ bind s:ctrl;alt;cmd relaunch
 # Snapshots
 bind p:alt snapshot Snapshot save-to-disk
 bind p:shift;alt activate-snapshot Snapshot
+
+# Grid
+bind esc:ctrl grid
