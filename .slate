@@ -41,8 +41,8 @@ bind t:alt focus 'Terminal'
 bind s:ctrl;alt;cmd relaunch
 
 # Snapshots
-bind p:alt snapshot Snapshot save-to-disk
-bind p:shift;alt activate-snapshot Snapshot
+bind p:shift;alt snapshot Snapshot save-to-disk
+bind p:alt       activate-snapshot Snapshot
 
 # Grid
 bind esc:ctrl grid
