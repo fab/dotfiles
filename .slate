@@ -21,10 +21,10 @@ bind up:shift;ctrl    nudge +0   -10%
 bind down:shift;ctrl  nudge +0   +10%
 
 # Throw Bindings
-bind right:ctrl;alt     throw right resize
-bind left:ctrl;alt      throw left  resize
-bind up:ctrl;alt        throw up    resize
-bind down:ctrl;alt      throw down  resize
+bind right:ctrl;alt   throw right resize
+bind left:ctrl;alt    throw left  resize
+bind up:ctrl;alt      throw up    resize
+bind down:ctrl;alt    throw down  resize
 
 # Window Hints
 bind esc:cmd hint
@@ -33,7 +33,7 @@ bind esc:cmd hint
 bind 1:alt focus 'Spotify'
 bind b:alt focus 'Bitcoin-Qt'
 bind c:alt focus 'Google Chrome'
-bind h:alt hide 'all'
+bind h:alt hide  'all'
 bind s:alt focus 'Sublime Text 2'
 bind t:alt focus 'Terminal'
 
