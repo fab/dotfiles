@@ -6,6 +6,7 @@
   autocrlf = false
   safecrlf = warn
   excludesfile = /Users/Fab/.gitignore_global
+  editor = "atom --wait"
 
 [color]
   ui = auto

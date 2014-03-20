@@ -31,13 +31,6 @@ eval "$(rbenv init -)"
 export PATH="/usr/local/heroku/bin:$PATH"
 
 # ----------------------------------------------------------------------
-#  EDITOR
-# ----------------------------------------------------------------------
-
-subl='/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl'
-test -x "$subl" && export EDITOR="'$subl' --wait"
-
-# ----------------------------------------------------------------------
 # NAVIGATION
 # ----------------------------------------------------------------------
 
@@ -73,6 +66,8 @@ complete -F _completemarks jump unmark
 # Shortcuts
 alias dv="jump dev"
 alias bji="jump bji"
+alias bar="jump bar"
+alias bja="jump bja"
 
 # Easier navigation
 alias ..="cd .."
