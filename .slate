@@ -37,6 +37,7 @@ bind c:alt focus 'Google Chrome'
 bind h:alt hide  'all'
 bind s:alt focus 'Sublime Text 2'
 bind t:alt focus 'Terminal'
+bind a:alt focus 'Atom'
 
 # Relaunch Slate
 bind s:ctrl;alt;cmd relaunch
