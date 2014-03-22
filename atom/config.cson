@@ -1,0 +1,24 @@
+'exception-reporting':
+  'userId': 'fad5522a-bc04-3dfc-f450-4f4f35c542a0'
+'release-notes':
+  'viewedVersion': '0.75.0'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': '5637177eb4e5b5e266e3404ae61e5ef363465889'
+'editor':
+  'autoIndent': true
+  'whitespace':
+    'ensureSingleTrailingNewline': true
+    'removeTrailingWhitespace': true
+  'fontSize': 17
+'core':
+  'themes': [
+    'atom-dark-ui'
+    'monokai'
+  ]
+  'ignoredNames': [
+    '.git'
+    '.svn'
+    '.DS_Store'
+  ]
