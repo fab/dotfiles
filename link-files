@@ -15,3 +15,10 @@ for file in `ls -d .*`
 do
   [ -f "$file" ] && link "`pwd`/$file" "$HOME/$file"
 done
+
+# Link Atom config files to ~/.atom directory
+cd atom
+for file in `ls`
+do
+  [ -f "$file" ] && link "`pwd`/$file" "$HOME/.atom/$file"
+done
