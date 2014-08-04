@@ -27,6 +27,7 @@
   helper = osxkeychain
 
 [alias]
+  aa = add .*
   co = checkout
   st = status
   # "Long" Logs - renders the log with high signal and low noise
