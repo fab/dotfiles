@@ -65,9 +65,7 @@ complete -F _completemarks jump unmark
 
 # Shortcuts
 alias dv="jump dev"
-alias bji="jump bji"
-alias bar="jump bar"
-alias bja="jump bja"
+alias dot="jump dot"
 
 # Easier navigation
 alias ..="cd .."
