@@ -38,6 +38,7 @@ bind h:alt hide  'all'
 bind s:alt focus 'Sublime Text 2'
 bind t:alt focus 'Terminal'
 bind a:alt focus 'Atom'
+bind e:alt focus 'Evernote'
 
 # Relaunch Slate
 bind s:ctrl;alt;cmd relaunch
