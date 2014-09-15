@@ -39,6 +39,7 @@ bind s:alt focus 'Sublime Text 2'
 bind t:alt focus 'Terminal'
 bind a:alt focus 'Atom'
 bind e:alt focus 'Evernote'
+bind m:alt focus 'Mailbox (Beta)'
 
 # Relaunch Slate
 bind s:ctrl;alt;cmd relaunch
