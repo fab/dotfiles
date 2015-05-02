@@ -10,7 +10,7 @@ then
 fi
 
 # Install a few Homebrew packages
-brew install git git-sh node postgresql rbenv ruby-build tree
+brew install git git-sh node postgresql rbenv redis ruby-build tree
 
 # Install Slate window manager
 cd /Applications && curl http://www.ninjamonkeysoftware.com/slate/versions/slate-latest.tar.gz | tar -xz
