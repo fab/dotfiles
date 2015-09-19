@@ -32,14 +32,13 @@ bind esc:cmd hint
 
 # Open Apps
 bind 1:alt focus 'Spotify'
-bind b:alt focus 'Bitcoin-Qt'
 bind c:alt focus 'Google Chrome'
 bind h:alt hide  'all'
 bind s:alt focus 'Sublime Text 2'
 bind t:alt focus 'Terminal'
 bind a:alt focus 'Atom'
 bind e:alt focus 'Evernote'
-bind m:alt focus 'Mailbox (Beta)'
+bind m:alt focus 'Mailbox'
 bind l:alt focus 'Slack'
 
 # Relaunch Slate
