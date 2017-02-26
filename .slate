@@ -38,15 +38,13 @@ bind s:alt focus 'Sublime Text 2'
 bind t:alt focus 'Terminal'
 bind a:alt focus 'Atom'
 bind e:alt focus 'Evernote'
-bind m:alt focus 'Mailbox'
 bind l:alt focus 'Slack'
+bind g:alt focus 'GarageBand'
+bind p:alt focus 'Paws for Trello'
+bind f:alt focus 'Messenger'
 
 # Relaunch Slate
 bind s:ctrl;alt;cmd relaunch
-
-# Snapshots
-bind p:shift;alt snapshot Snapshot save-to-disk
-bind p:alt       activate-snapshot Snapshot
 
 # Grid
 bind esc:ctrl grid
