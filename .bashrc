@@ -96,6 +96,7 @@ alias l.="ls -d .*"
 alias fn='find . -name'
 alias hi='history | tail -20'
 alias ghub='hub browse'
+alias be='bundle exec'
 
 # ----------------------------------------------------------------------
 # MISC
