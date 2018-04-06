@@ -13,3 +13,8 @@
 #     'prefix': 'log'
 #     'body': 'console.log $1'
 #
+
+'.source.gfm':
+  'Amazon URL Tag':
+    'prefix': 'amz'
+    'body': '{% amazon_url $1 %}'
