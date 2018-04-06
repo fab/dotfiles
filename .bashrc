@@ -21,7 +21,7 @@ export PS1="$RED\$(date '+%I:%M:%S %p') $YELLOW\w$GREEN \$(parse_git_branch)$DEF
 # ----------------------------------------------------------------------
 
 # Add binaries
-export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 
 # Add rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
